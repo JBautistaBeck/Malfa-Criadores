@@ -5,7 +5,7 @@ import Home from "./views/home";
 function App() {
   return (
     <div className=" bg-black">
-      <NavBar></NavBar>
+      {/* <NavBar></NavBar> */}
       <Home></Home>
       <About></About>
 

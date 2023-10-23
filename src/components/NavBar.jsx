@@ -61,7 +61,7 @@ function NavBar() {
     return (
       <div className={` text-xs  sm:text-base fixed top-0 w-full p-2 pl-6 flex justify-between duration-500 ${ scrolling ? 'backdrop-blur-lg bg-white opacity-90' : ' backdrop-blur-lg '}`}>
 
-        <FontAwesomeIcon onClick={() => handleAboutClick("home")} className=' w-12 h-12' icon={faLaptopCode} title="Principio" />
+        {/* <FontAwesomeIcon onClick={() => handleAboutClick("home")} className=' w-12 h-12' icon={faLaptopCode} title="Principio" /> */}
 
         <div className="">
 
