@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar";
 import About from "./views/about";
+import Form from "./views/contactForm";
 import Home from "./views/home";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <NavBar></NavBar>
       <Home></Home>
       <About></About>
+      <Form></Form>
 
     </div>
   );
